@@ -28,7 +28,7 @@ function animateTrail() {
 
 animateTrail();
 document.addEventListener("DOMContentLoaded", () => {
-  const text = "クリエイティブで価値をデザインする。";
+  const text = "クリエイティブで価値をデザイン";
   const subtitleEl = document.getElementById("subtitle");
 
   const mid = Math.floor(text.length / 2);

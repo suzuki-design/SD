@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>SUZUKI DESIGN</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+  <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+</head>
+<body>
+  <!-- 背景動画 -->
+  <video autoplay muted loop playsinline class="background-video">
+    <source src="13384448_1920_1080_30fps.mp4" type="video/mp4" />
+  </video>
+
+  <!-- 中央テキスト -->
+  <div class="center-text">
+    <h1 class="title stagger-text">
+      <span>S</span><span>U</span><span>Z</span><span>U</span><span>K</span><span>I</span>
+      <span>&nbsp;</span>
+      <span>D</span><span>E</span><span>S</span><span>I</span><span>G</span><span>N</span>
+    </h1>
+<p class="subtitle" id="subtitle"></p>
+  </div>
+
+  <!-- アニメーション本体（中央表示でループ） -->
+  <div style="position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); z-index: 2;">
+    <lottie-player
+      src="./data.json"
+      background="transparent"
+      speed="1"
+      style="width: 1600px; height: 1600px;"
+      loop
+      autoplay>
+    </lottie-player>
+  </div>
+
+  <!-- カスタムカーソル -->
+<div class="cursor-main"></div>
+<div class="cursor-trail"></div>
+</body>
+</html>

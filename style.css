@@ -47,7 +47,6 @@ body, html {
   padding: 0;
   overflow: hidden;
   font-family: "游ゴシック", sans-serif;
-  background-color: #ffffffa5;
   color: #000;
   height: 100vh;
 }
@@ -63,7 +62,11 @@ body, html {
   transform: translate(-50%, -50%);
   z-index: -2;
 }
-
+video {
+  width: 100vw;          /* 横幅いっぱい */
+  height: 100vh;         /* 高さも画面いっぱい */
+  object-fit: cover;     /* アスペクト比を保ちながら切り抜いて全体に表示 */
+}
 
 /* 中央テキスト配置 */
 .center-text {

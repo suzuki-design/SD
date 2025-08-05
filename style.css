@@ -10,7 +10,7 @@
   position: fixed;
   top: 0;
   width: 100%;
-  padding: 60px 80px 20px 20px; /* 上 右 下 左 */
+  padding: 50px 80px 20px 20px; /* 上 右 下 左 */
   display: flex;
   justify-content: flex-end;
   z-index: 999;

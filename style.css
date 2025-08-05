@@ -159,8 +159,8 @@ body, html {
   position: fixed;
   top: 0;
   left: 0;
-  width: 10px;
-  height: 10px;
+  width: 5px;
+  height: 5px;
   background-color: rgb(108, 108, 108);
   border-radius: 50%;
   pointer-events: none;
@@ -174,8 +174,8 @@ body, html {
   position: fixed;
   top: 0;
   left: 0;
-  width: 10px;
-  height: 10px;
+  width: 5px;
+  height: 5px;
   background-color: rgba(108, 108, 108, 0.3); /* 半透明 */
   border-radius: 50%;
   pointer-events: none;
